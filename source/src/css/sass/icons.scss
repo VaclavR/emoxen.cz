@@ -1,0 +1,43 @@
+.icon {
+    width: 1rem;
+    height: 1rem;
+    display: inline-block;
+    background: no-repeat center;
+    background-size: contain;
+
+    &--drop {
+        background-image: url(../img/icon_1.svg);
+    }
+
+    &--hand {
+        background-image: url(../img/icon_2.svg);
+    }
+
+    &--flower {
+        background-image: url(../img/icon_3.svg);
+    }
+
+    &--liquid {
+        background-image: url(../img/icon_5.svg);
+    }
+
+    &--snowflake {
+        background-image: url(../img/icon_4.svg);
+    }
+
+    &--time {
+        background-image: url(../img/icon_7.svg);
+    }
+
+    &--circle {
+        background-image: url(../img/icon_6.svg);
+    }
+
+    &--arrow {
+        background-image: url(../img/arrow.svg);
+    }
+
+    &--menu {
+        background-image: url(../img/menu.svg);
+    }
+}
