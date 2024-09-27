@@ -108,7 +108,7 @@ img {
 }
 
 .main-nav {
-    ul {
+    ul:not(.dropdown-menu) {
         display: flex;
         align-items: center;
         list-style-type: none;
